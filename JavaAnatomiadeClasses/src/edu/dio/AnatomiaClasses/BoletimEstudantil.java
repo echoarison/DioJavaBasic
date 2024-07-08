@@ -1,3 +1,4 @@
+package edu.dio.AnatomiaClasses;
 public class BoletimEstudantil {
     public static void main(String[] args) {
         //declarando variavel
