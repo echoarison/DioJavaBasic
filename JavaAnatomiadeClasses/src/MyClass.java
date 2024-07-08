@@ -1,8 +1,12 @@
 public class MyClass {
     
     public static void main(String[] args){
-        
-        System.out.println("Anatomia De Class");
+        //declarando variavel
+        String nomeFirst = "Patric";
+        String nomeSecond = "Alisson";
+
+
+        System.out.println(NomeCompleto(nomeFirst, nomeSecond));
 
     }
 
