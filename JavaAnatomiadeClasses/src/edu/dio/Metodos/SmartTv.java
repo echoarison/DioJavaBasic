@@ -24,4 +24,19 @@ public class SmartTv{
         --volume; //diminuindo -1
     }
 
+    public void mudarCanal()
+    {
+        canal++; //mudando canal
+    }
+
+    public void voltarCanal()
+    {
+        canal--; // voltando canal
+    }
+
+    public void selecionaCanal(int novoCanal)
+    {
+        canal = novoCanal; //selecionando o canal a escolha
+    }
+
 }

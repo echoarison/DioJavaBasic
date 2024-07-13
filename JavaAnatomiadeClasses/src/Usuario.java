@@ -23,6 +23,19 @@ public class Usuario {
         smartTv.abaixarVolume();
 
         System.out.println("Volume: " + smartTv.volume);
+
+        smartTv.selecionaCanal(15);
+
+        System.out.println("Canal Selecionado: " + smartTv.canal);
+
+        smartTv.mudarCanal();
+
+        System.out.println("Canal Selecionado: " + smartTv.canal);
+
+        smartTv.voltarCanal();
+
+        System.out.println("Canal Selecionado: " + smartTv.canal);
+
     }
 
 }
